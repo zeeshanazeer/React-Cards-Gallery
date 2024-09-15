@@ -1,0 +1,34 @@
+.master-card{
+    background-color: rgb(17, 34, 17);
+    color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 25px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    max-width: 350px;
+    transition: transform 0.3s ease-in-out;
+} 
+.master-card:hover{
+    background-color: aqua;
+    color: black;
+    transform: translateY(-10px);
+}
+.title-card .discription-card .disclaimer-card{
+    font-size: 100px;
+}
+.title-card{
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding: 10px;
+}
+.discription-card{
+    padding-bottom:5 ;
+    padding: 10px;
+}
+
+.disclaimer-card{
+    padding: 10px;
+    padding-bottom: 5px;
+}
